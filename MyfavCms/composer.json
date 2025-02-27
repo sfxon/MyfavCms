@@ -1,0 +1,37 @@
+{
+    "name": "myfav/cms",
+    "version": "1.0.0",
+    "description": "CMS Elemente",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mindfav Software",
+            "homepage": "https://www.mindfav.com"
+        }
+    ],
+    "require": {
+        "shopware/core": "^6.6",
+        "shopware/storefront": "^6.6",
+        "shopware/administration": "~6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Myfav\\Cms\\": "src\/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Myfav\\Cms\\MyfavCms",
+        "plugin-icon": "plugin.png",
+        "shopware-min-version": "6.6",
+        "copyright": "(c) by Mindfav Software",
+        "label": {
+            "en-GB": "Extended CMS Elements",
+            "de-DE": "Erweiterte CMS Elemente"
+        },
+        "description": {
+            "en-GB": "Extends the System with more CMS Elements.",
+            "de-DE": "Fügt dem System weitere CMS Elemente hinzu."
+        }
+    }
+}
