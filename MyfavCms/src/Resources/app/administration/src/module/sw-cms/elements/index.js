@@ -1,0 +1,1 @@
+import './myfav-listing-product';

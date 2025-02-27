@@ -1,0 +1,1 @@
+import './commerce/myfav-listing-product'

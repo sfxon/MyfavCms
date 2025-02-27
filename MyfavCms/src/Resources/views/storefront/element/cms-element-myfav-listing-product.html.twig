@@ -1,0 +1,24 @@
+{% set config = element.fieldConfig.elements %}
+
+<div class="cms-block-container-row row cms-row ">
+    <div class="col-lg-7 product-detail-media" data-cms-element-id="{{ element.id }}">
+        {% block block_gallery_buybox_column_left_inner %}
+            {% sw_include '@Storefront/storefront/element/cms-element-image-gallery.html.twig' ignore missing
+                with {
+                    element: element.data.sliderElement,
+                    isProduct: true,
+                    startIndexThumbnails: 1,
+                    startIndexSlider: 1,
+            } %}
+        {% endblock %}
+    </div>
+
+    <div class="col-lg-5 product-detail-buy" data-cms-element-id="{{ element.id }}">
+        {% block block_gallery_buybox_column_right_inner %}
+            {% sw_include '@Storefront/storefront/element/cms-element-buy-box.html.twig' ignore missing
+                with {
+                    isMyfavListingProductCmsElement: true
+            } %}
+        {% endblock %}
+    </div>
+</div>
