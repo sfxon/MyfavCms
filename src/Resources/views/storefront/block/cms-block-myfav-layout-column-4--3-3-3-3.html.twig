@@ -1,0 +1,32 @@
+{% block block_myfav_myfav_layout_column_4__3_3_3_3 %}
+    {% set columns = 1 %}
+
+    {% block block_html_inner %}
+        <div class="row">
+            <div class="col-md-3">
+                {% set element = block.slots.getSlot('myfavSlot1') %}
+                <div data-cms-element-id="{{ element.id }}">
+                    {% sw_include '@Storefront/storefront/element/cms-element-' ~ element.type ~ '.html.twig' ignore missing  %}
+                </div>
+            </div>
+            <div class="col-md-3">
+                {% set element = block.slots.getSlot('myfavSlot2') %}
+                <div data-cms-element-id="{{ element.id }}">
+                    {% sw_include '@Storefront/storefront/element/cms-element-' ~ element.type ~ '.html.twig' ignore missing  %}
+                </div>
+            </div>
+            <div class="col-md-3">
+                {% set element = block.slots.getSlot('myfavSlot3') %}
+                <div data-cms-element-id="{{ element.id }}">
+                    {% sw_include '@Storefront/storefront/element/cms-element-' ~ element.type ~ '.html.twig' ignore missing  %}
+                </div>
+            </div>
+            <div class="col-md-3">
+                {% set element = block.slots.getSlot('myfavSlot4') %}
+                <div data-cms-element-id="{{ element.id }}">
+                    {% sw_include '@Storefront/storefront/element/cms-element-' ~ element.type ~ '.html.twig' ignore missing  %}
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+{% endblock %}

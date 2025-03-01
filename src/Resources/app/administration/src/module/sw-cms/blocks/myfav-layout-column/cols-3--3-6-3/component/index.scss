@@ -1,0 +1,16 @@
+.sw-cms-block-myfav-layout-column-3--3-6-3 {
+    display: flex;
+    gap: 40px;
+
+    .sw-cms-slot.sw-cms-slot-myfavSlot1 {
+        width: 25%;
+    }
+
+    .sw-cms-slot.sw-cms-slot-myfavSlot2 {
+        width: 50%;
+    }
+
+    .sw-cms-slot.sw-cms-slot-myfavSlot3 {
+        width: 25%;
+    }
+}

@@ -1,1 +1,13 @@
 import './commerce/myfav-listing-product'
+import './myfav-layout-column/cols-2--4-8';
+import './myfav-layout-column/cols-2--5-7';
+import './myfav-layout-column/cols-2--6-6';
+import './myfav-layout-column/cols-2--7-5';
+import './myfav-layout-column/cols-2--8-4';
+import './myfav-layout-column/cols-3--2-8-2';
+import './myfav-layout-column/cols-3--3-6-3';
+import './myfav-layout-column/cols-3--4-4-4';
+import './myfav-layout-column/cols-4--2-4-4-2';
+import './myfav-layout-column/cols-4--3-3-3-3';
+import './myfav-layout-column/cols-5--1-1-1-1-1';
+import './myfav-layout-column/cols-6--1-1-1-1-1-1';
